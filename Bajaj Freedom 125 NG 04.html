@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MotoGrid</title>
+    <!--Logo top-->
+    <link rel="shortcut icon" href="mg top.png" type="image/x-icon">
+
+
+
+    <!--link of css file-->
+    <link rel="stylesheet" href="design.css" />
+    <!--box icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!--preloader-->
+    <div id="preloader"></div>
+
+    <!--header-->
+    <header>
+      <a href="motogrid.html" class="logo"><img src="mg.png" alt="" /></a>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <div class="search-container">
+          <input type="text" id="searchInput" placeholder="Search" autocomplete="off">
+          <div id="suggestions" class="suggestions"></div>
+        </div>        
+        <li><a href="motogrid.html">Home</a></li>
+        <li><a href="bike_category.html">MotorCycle</a></li>
+        <li><a href="cars_category.html">Car</a></li>
+        <li><a href="aerospace.html">Aerospace</a></li>
+        <li><a href="yacht.html">Yacht </a></li>
+        <li><a href="#connect">Connect with us </a></li>
+      </ul>
+    </header>
+
+    <!--brand logo img -->
+    <section class="Vehicle-container-logo" id="Vehicle-container-logo">
+      <div class="logov">
+        <span>Get Info About</span>
+      </div>
+      <img src="bimage/bajaj.png" class="brand-heading-img">
+    </section>
+
+
+
+
+
+<!--bajaj bikes-->
+         <section class="Vehicle-container" id="Vehicle-container">
+            <div class="Vehicle-container">
+              <div class="box">
+                <!-- card -->
+<div class="bike-card">
+  <div class="bike-image">
+    <div class="slider-wrapper" id="slider">
+      <img src="bimage/ct lf.png" class="slider-image" alt="Image 1">
+      <img src="bimage/ct l.png" class="slider-image" alt="Image 2">
+      <img src="bimage/ct rf.png" class="slider-image" alt="Image 3">
+      <img src="bimage/ct r.png" class="slider-image" alt="Image 4">
+      <img src="bimage/ct y.png" class="slider-image" alt="Image 5">
+      <img src="bimage/ct b.png" class="slider-image" alt="Image 6">
+    </div>
+    <button class="slider-button prev-btn" onclick="slide(-1)">&#10094;</button>
+    <button class="slider-button next-btn" onclick="slide(1)">&#10095;</button>
+  </div>
+
+  <div class="bike-info">
+    <div>
+      <div class="variant-city">
+        <div><strong>Variant</strong><br>Freedom Drum</div>
+        <div><strong>Year</strong><br>2025</div>
+        <h3>Bajaj Freedom 125 NG 04</h3>
+      </div>
+
+      <div class="price">
+        ₹ 91,197/-* <small><a href="#">Check on-road price</a></small>
+      </div>
+      <div class="ex-showroom">Avg. Ex-Showroom price</div>
+
+      <div class="emi-box">
+        <div class="emi">EMI Rs. 6,694/month</div>
+        <a href="#">Get EMI Offers</a>
+      </div>
+    </div>
+    <a href="https://www.bajajauto.com/bikes/ct/ct-110x" class="cta-button" target="_blank">Book Now</a>
+
+  </div>
+</div>
+<br>
+<br>
+
+<div class="container">
+  <h2>Price and Variants</h2>
+  <!-- Comparison Table -->
+  <div class="comparison-table-wrapper">
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Variants</th>
+          <th>FreeDom Drum</th>
+          <th>FreeDom Drum LED</th>
+          <th>FreeDom Disc LED</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ex-Showroom Price</td>
+          <td>₹ 91,197<br></td>
+          <td>₹ 96,291<br></td>
+          <td>₹ 11,11,112<br></td>
+        </tr>
+        <tr>
+          <td>Brakes and Wheels</td>
+          <td>Drum Brakes, Alloy Wheels</td>
+          <td>Drum Brakes, Alloy Wheels</td>
+          <td>Disc Brakes, Alloy Wheels</td>
+        </tr>
+        <tr>
+          <td>Braking System</td>
+          <td>CBS</td>
+          <td>CBS</td>
+          <td>CBS</td>
+        </tr>
+        <tr>
+          <td>Rear Brake Type</td>
+          <td>Drum</td>
+          <td>Drum</td>
+          <td>Drum</td>
+        </tr>
+        <tr>
+          <td>Tyre Type</td>
+          <td>Tubeless</td>
+          <td>Tubeless</td>
+          <td>Tubeless</td>
+        </tr>
+        <tr>
+          <td>Colours</td>
+          <td>
+            <span class="color-swatch" style="background-color:#b51c1c"></span>
+            <span class="color-swatch" style="background-color:#1a1a1b"></span>
+            ,<span class="color-swatch" style="background-color:#1a1a1b"></span>
+            <span class="color-swatch" style="background-color:#1a1a1b"></span>
+          </td>
+          <td>
+            <span class="color-swatch" style="background-color:#96a506"></span>
+            <span class="color-swatch" style="background-color:#1a1a1a"></span>
+            ,<span class="color-swatch" style="background-color:#1a1a1a"></span>
+            <span class="color-swatch" style="background-color:#1a1a1a"></span>
+            ,<span class="color-swatch" style="background-color:#1a1a1a"></span>
+            <span class="color-swatch" style="background-color:#1a1a1a"></span>
+            ,<span class="color-swatch" style="background-color:#1a1a1a"></span>
+            <span class="color-swatch" style="background-color:#1a1a1a"></span>
+            ,<span class="color-swatch" style="background-color:#1a1a1a"></span>
+            <span class="color-swatch" style="background-color:#1a1a1a"></span>
+          </td>
+          <td>
+            <span class="color-swatch" style="background-color:#165a8f"></span>
+            <span class="color-swatch" style="background-color:#1b1b1c"></span>
+            ,<span class="color-swatch" style="background-color:#1b1b1c"></span>
+            <span class="color-swatch" style="background-color:#1b1b1c"></span>
+            ,<span class="color-swatch" style="background-color:#1b1b1c"></span>
+            <span class="color-swatch" style="background-color:#1b1b1c"></span>
+            ,<span class="color-swatch" style="background-color:#1b1b1c"></span>
+            <span class="color-swatch" style="background-color:#1b1b1c"></span>
+            ,<span class="color-swatch" style="background-color:#1b1b1c"></span>
+            <span class="color-swatch" style="background-color:#1b1b1c"></span>
+          </td>
+        </tr>
+        <tr>
+            <td>
+                Colours Name
+            </td>
+            <td>
+                Ebony Black-Red/Pewter Grey-Yellow
+            </td>
+            <td>
+                Cyber White/Racing Red/Pewter Grey-Black/Ebony Black-Grey/Carribean Blue 
+            </td>
+            <td>
+                Cyber White/Racing Red/Pewter Grey-Black/Ebony Black-Grey/Carribean Blue
+            </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+<br>
+  <!-- Specification Table -->
+
+    <table class="specs-table">
+    <h2>Key Highlights </h2>
+      <tr><td>Engine Capacity</td><td>125 cc</td></tr>
+      <tr><td>Mileage</td><td>90 Kmpl</td></tr>
+      <tr><td>Transmission</td><td>5 Speed Manual</td></tr>
+      <tr><td>Kerb Weight</td><td>149 kg</td></tr>
+      <tr><td>Fuel Tank Capacity</td><td>2 litres Petrol & 2Kg CNG</td></tr>
+      <tr><td>Seat Height</td><td>825 mm</td></tr>
+    </table>
+    <table class="specs-table">
+    <h2>Power and Performance </h2>
+      <tr><td>Displacement</td><td>125 cc</td></tr>
+      <tr><td>Max Power</td><td>9.3 bhp @ 8000 rpm</td></tr>
+      <tr><td>Max Torque</td><td>9.7 Nm @ 6000 rpm</td></tr>
+      <tr><td>Top Speed</td><td>93 Kmph</td></tr>
+    </table>    
+    <table class="specs-table">
+    <h2>Brake & Wheels </h2>
+      <tr><td>Braking System</td><td>CBS</td></tr>
+      <tr><td>Front Brake Type</td><td>Drum/Disc</td></tr>
+      <tr><td>Front Brake Size</td><td>130 mm</td></tr>
+      <tr><td>Caliper - Front</td><td>-</td></tr>
+    </table>        
+    <table class="specs-table">
+    <h2>Suspension & Chassis </h2>
+      <tr><td>Front Suspension</td><td>Telescopic Fork</td></tr>
+      <tr><td>Rear Suspension</td><td>MonoShock Absorber</td></tr>
+      <tr><td>Front Suspension Preload Adjuster</td><td>No</td></tr>
+      <tr><td>Rear Suspension Preload Adjuster</td><td>-</td></tr>
+    </table>    
+    <table class="specs-table">
+    <h2>Dimensions </h2>
+      <tr><td>Kerb Weight</td><td>149 kg</td></tr>
+      <tr><td>Seat Height </td><td>825 mm</td></tr>
+      <tr><td>Ground Clearance</td><td>170 mm</td></tr>
+      <tr><td>Fuel Tank Capacity</td><td>2 litres Petrol & 2Kg CNG</td></tr>
+    </table>    
+    <table class="specs-table">
+    <h2>Manufacturer Warranty </h2>
+      <tr><td>Standard Warranty</td><td>5 Years</td></tr>
+      <tr><td>Standard Warranty</td><td>75000 Km</td></tr>
+    </table>    
+    <table class="specs-table">
+    <h2>Service & Maintenance Schedule </h2>
+      <tr><td>1st Service</td><td>500-750 Kms/30-40 Days</td></tr>
+      <tr><td>2nd Service</td><td>4500-5000 Kms/240 Days</td></tr>
+      <tr><td>3rd Service</td><td>9500-10000 Kms/360 Days</td></tr>
+      <tr><td>4th Service</td><td>-</td></tr>
+    </table>    
+    <table class="specs-table">
+    <h2>Features </h2>
+      <tr><td>Instrument Console</td><td>Digital</td></tr>
+      <tr><td>Touch Screen Display</td><td>No</td></tr>
+      <tr><td>Display Size</td><td>-</td></tr>
+      <tr><td>Digital Display Type</td><td>LCD</td></tr>
+    </table>    
+    <table class="specs-table">
+    <h2>Safety & Convenience </h2>
+      <tr><td>USB charging Port</td><td>Yes</td></tr>
+      <tr><td>Saree Guard</td><td>Yes</td></tr>
+      <tr><td>Quick-shifter</td><td>No</td></tr>
+      <tr><td>Traction Control</td><td>No</td></tr>
+    </table>    
+    <table class="specs-table">
+    <h2>Mobile App Monitoring </h2>
+      <tr><td>Vehicle Location Tracking</td><td>No</td></tr>
+      <tr><td>Geo Fencing</td><td>No</td></tr>
+    </table>    
+    <table class="specs-table">
+    <h2>Lights </h2>
+      <tr><td>Head Light Type</td><td>Halogen/LED</td></tr>
+      <tr><td>DRLs(Day Time Running Light)</td><td>Yes</td></tr>
+      <tr><td>Brake/Tail Lights</td><td>Halogen Bulb/LED</td></tr>
+      <tr><td>Hazard Warning Lights</td><td>No</td></tr>
+    </table>       
+    <table class="specs-table">
+    <h2>Seat & Storage </h2>
+      <tr><td>Under Seat Storage(litres)</td><td>No</td></tr>
+      <tr><td>Front Storage Box</td><td>No</td></tr>
+      <tr><td>Pillion Seat</td><td>Yes</td></tr>
+      <tr><td>Pillion Backrest</td><td>No</td></tr>
+    </table>    
+    <table class="specs-table">
+    <h2>Additional Features </h2>
+      <tr><td>Additional Features</td><td>2kg CNG Tank, CNG-Petrol Mode Toggle Switch </td></tr>
+    </table> 
+</div>
+<br>
+<br>
+                <a href="https://www.bajajauto.com/bikes/ct/ct-110x" class="btn" target="_blank">Book Now</a>
+              </div>
+            </div>
+        </section>
+
+
+
+
+
+
+    <!--reviews-->
+    <section class="review" id="review">
+        <div class="heading">
+          <span>Reviews</span>
+          <h1>What Our Customer Says</h1>
+          <div class="review-container">
+            <div class="box">
+              <div class="rev-img">
+                <img src="background img.png" alt="">
+              </div>
+              <h2>Someone Name</h2>
+              <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur sint at sed velit voluptates in doloribus, dolor quaerat.</p>
+            </div> 
+  
+            <div class="box">
+              <div class="rev-img">
+                <img src="background img.png" alt="">
+              </div>
+              <h2>Someone Name</h2>
+              <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half' ></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur sint at sed velit voluptates in doloribus, dolor quaerat.</p>
+            </div> 
+  
+            <div class="box">
+              <div class="rev-img">
+                <img src="background img.png" alt="">
+              </div>
+              <h2>Someone Name</h2>
+              <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bx-star' ></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur sint at sed velit voluptates in doloribus, dolor quaerat.</p>
+            </div> 
+          </div>
+      </section>
+  
+  
+  
+  
+  
+  
+    <!--Connect with us-->
+    <section class="connect" id="connect">
+      <h2>Have any Questions?</h2>
+      <div class="box">
+        <form action="form.php" method="post">
+          <input type="text" name="name" placeholder="Enter Your Name" required>
+          <input type="email" name="email" placeholder="Enter Your Email" required>
+          <textarea rows="8" name="message" placeholder="Enter Your Question" required></textarea>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+    </section>
+  
+  
+  
+          <!--copyright-->
+          <footer>
+            <div class="copyright">
+              <div class="social">
+                <a href="#" class="si"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="si"><i class='bx bxl-twitter'></i></a>
+                <a href="#" class="si"><i class='bx bxl-youtube' ></i></a>
+              </div>
+            </div>
+            <div class="madeby">
+              <p>Copyright &#169;2025 <span id="rights">MotoGrid All Rights Reserved.</span> <br> <span id="designer">Designed by ROCKANK &Team</span></p>
+            </div>
+          </footer>
+  
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <!--Link to js-->
+      <script src="built.js"></script>
+    </body>
+</html>
